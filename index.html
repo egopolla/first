@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="keywords" content="тенологии, вакансии, команда, резюме">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Буду-jobs </title>
 </head>
 
@@ -27,11 +26,10 @@
                 <li class="main-nav__item">
                     <a class="main-nav__link" href="https://yo.budu.jobs/">Работодатели</a>
                 </li>
-
             </ul>
-            <form action="https://budu.jobs/sign-in" method="get">
-                <button type="submit">Войти</button>
-            </form>
+            <a href="https://budu.jobs/sign-in">Войти</a>
+                
+            
 
         </nav>
     </header>
@@ -57,71 +55,93 @@
         <section class="companies of the week">
             <h2>Компании недели</h2>
             <a class="all companies" href="https://budu.jobs/companies">Смотреть все</a>
+
             <ul class="list of companies">
                 <li class="companies-item">
-                    <a class="companies-link" href="https://budu.jobs/c/skyeng?tab=profile">SkyEng</a>
-                    <p>Делаем развитие привлекательным и приводим к результатам, которыми хочется гордиться</p>
-
+                    <a class="companies-link" href="https://budu.jobs/c/skyeng?tab=profile">
+                        <h4>SkyEng</h4>
+                        <p>Делаем развитие привлекательным и приводим к результатам, которыми хочется гордиться</p>
+                   </a>
                 </li>
                 <li class="companies-item">
-                    <a class="companies-link" href="https://budu.jobs/c/rt?tab=profile">Ростелеком</a>
-                    <p>Крупнейший в России интегрированный провайдер цифровых услуг и решений.</p>
+                    <a class="companies-link" href="https://budu.jobs/c/rt?tab=profile">
+                        <h4>Ростелеком</h4>
+                        <p>Крупнейший в России интегрированный провайдер цифровых услуг и решений.</p>
+                   </a>
                 </li>
                 <li class="companies-item">
-                    <a class="companies-link" href="https://budu.jobs/c/semrush?tab=profile">Semrush</a>
-                    <p>Semrush — продуктовая IT-компания с душой. Создаем SaaS-платформу для интернет-маркетологов c
-                        2008 года.
-                    </p>
+                    <a class="companies-link" href="https://budu.jobs/c/semrush?tab=profile">
+                       <h4>Semrush</h4>
+                       <p>Semrush — продуктовая IT-компания с душой. Создаем SaaS-платформу для интернет-маркетологов c
+                        2008 года.</p>
+                    </a>
                 </li>
                 <li class="companies-item">
-                    <a class="companies-link" href="https://budu.jobs/c/sibur?tab=profile">Сибур Диджитал</a>
-                    <p>Сибур Диджитал — ИТ-подразделение, решающее креативные задачи нефтехимического бизнеса. Мы
+                    <a class="companies-link" href="https://budu.jobs/c/sibur?tab=profile">
+                       <h4>Сибур Диджитал</h4>
+                       <p>Сибур Диджитал — ИТ-подразделение, решающее креативные задачи нефтехимического бизнеса. Мы
                         тестируем и внедряем программно-аппаратные решения из разных технологических областей —
                         промышленный интернет вещей, дополненная и виртуальная реальность, компьютерное зрение,
-                        робототехника и другие.
-                    </p>
+                        робототехника и другие.</p>
+                   </a>
                 </li>
                 <li class="companies-item">
-                    <a class="companies-link" href="https://budu.jobs/c/sber?tab=profile">Сбер</a>
-                    <p>Высокотехнологичная компания и крупнейший банк в России, Центральной и Восточной Европе.</p>
+                    <a class="companies-link" href="https://budu.jobs/c/sber?tab=profile">
+                        <h4>Сбер</h4>
+                        <p>Высокотехнологичная компания и крупнейший банк в России, Центральной и Восточной Европе.</p>
+                   </a>
                 </li>
                 <li class="companies-item">
-                    <a class="companies-link" href="https://budu.jobs/c/selectel?tab=profile">Selectel</a>
-                    <p>Мы создаем облачные решения и предлагаем в аренду серверы, которые размещаем в своих дата-центрах
+                    <a class="companies-link" href="https://budu.jobs/c/selectel?tab=profile">
+                       <h4>
+                           Selectel
+                        </h4>
+                       <p>
+                        Мы создаем облачные решения и предлагаем в аренду серверы, которые размещаем в своих дата-центрах
                         в России. Наши клиенты разрабатывают сайты, сервисы и приложения. Чтобы помочь им в запуске и
                         развитии продуктов, мы берем на себя всю работу с IT-инфраструктурой.
-                    </p>
+                       </p>
+                   </a>
                 </li>
             </ul>
         </section>
 
         <section class="not found your company">
             <h2>Не хватает вашей компании?</h2>
+            
 
             <p>Создайте карьерную страницу и привлекайте больше талантливых специалистов. </p>
-            <label>Email<input type="text"></label>
-            <label>Название компании<input type="text"></label>
-            <input type="submit" value="Получить презентацию">
+            <form action="?" method="get">
+                  <p>
+                     <label for="email">Email</label>
+                     <input type="email" name="email" id="email" required>
+                  </p>
+                  <p>
+                     <label for="text">Название компании</label>
+                     <input type="text" name="text" id="text" required>
+                  </p>
+                  <button type="submit">Получить презентацию"></button>
+           </form>
         </section>
 
-        <section class="new_vacancies">
+     <section class="new_vacancies">
             <h2>Новые вакансии</h2>
             <a class="all companies" href="https://budu.jobs/vacancies">Смотреть все</a>
             <div class="vacancies of the week">
                 <ul class="list of vacancies">
                     <li class="vacancies item">
-                        <a class="vacancies-link"
-                            href="https://budu.jobs/vacancy/79fa676a-96e0-4819-b867-64315d648657">SOCIAL</a>
-                        <p>Специалист по таргетированной рекламе</p>
-                        <p>Команда креативного агентства SOCIAL (часть Deluxe Interactive) и партнёры агентства ищет опытного таргетолога, 
+                        <a class="vacancies-link" 
+                        href="https://budu.jobs/vacancy/79fa676a-96e0-4819-b867-64315d648657">
+                           <h5>SOCIAL</h5>
+                           <p>Специалист по таргетированной рекламе</p>
+                           <p>Команда креативного агентства SOCIAL (часть Deluxe Interactive) и партнёры агентства ищет опытного таргетолога, 
                             знающего все о продвижении в соцсетях.
-                           Мы работаем с крупными брендами и очень быстро развиваемся.
+                            Мы работаем с крупными брендами и очень быстро развиваемся.
                             Присоединяйся!</p>
                             <ul class="direction__of__the__company">
                                <li class="directions__of__th__company">контент</li>
                                <li class="directions__of__th__company">маркетинг</li>
                             </ul>
-
                             <ul class="company__terms">
                                <li class="terms">
                                    ₽ на собеседовании
@@ -129,12 +149,13 @@
                                <li class="terms">
                                    Москва или удаленка
                                </li> 
-                             </ul>
-
-                    </li>
-                    <li class="vacancies item">
+                            </ul>
+                      </a>
+                  </li>
+                  <li class="vacancies item">
                         <a class="vacancies-link"
-                            href="https://budu.jobs/vacancy/0b94f3a9-683f-47e1-ab05-c8b17ef7cfa3">Смарт Трейд</a>
+                            href="https://budu.jobs/vacancy/0b94f3a9-683f-47e1-ab05-c8b17ef7cfa3">
+                            <h5>Смарт Трейд</h5>
                             <p>Специалист по работе с клиентами</p>
                             <ul class="direction__of__the__company">
                                 <li class="directions__of__th__company">менеджмент</li> 
@@ -147,38 +168,41 @@
                                     Москва
                                 </li> 
                             </ul>
-                            
-                            
-                            
-                    
-                    <li class="vacancies item">
+                        </a>
+                  </li>
+                  <li class="vacancies item">
                         <a class="vacancies-link"
-                            href="https://budu.jobs/vacancy/b61fdd37-252b-4a07-9eb6-d9bc103497ae">FrontLiner</a>
+                            href="https://budu.jobs/vacancy/b61fdd37-252b-4a07-9eb6-d9bc103497ae">
+                            <h5>FrontLiner</h5>
                             <p>Рекрутер</p>
                             <p>Задачи:
                                 — осуществлять полный цикл подбора (от снятия вакансии у Нанимающего менеджера до выхода сотрудника на работу) - основная задача;
-                                — системно развивать HR-бренд работодателя. Мы готовы в это инвестировать - дополнительная задача;</p>
-                            <li class="terms">HR</li>
-                            <li clss="terms">Подбор персонала</li>
-                            <ul class="company__terms">
-                                <li class="terms">
-                                    ₽ на собеседовании
-                                </li> 
-                                <li class="terms">
-                                    Москва или удаленка
-                                </li>
+                                — системно развивать HR-бренд работодателя. Мы готовы в это инвестировать - дополнительная задача;
+                            </p>
+                            <ul class="direction__of__the__company">
+                               <li class="directions__of__th__company">HR</li>
+                               <li class="directions__of__th__company">Подбор персонала</li>
                             </ul>
-                            
-                    
-                    <li class="vacancies item">
+                            <ul class="company__terms">
+                                <li class="terms">₽ на собеседовании</li> 
+                                <li class="terms">Москва или удаленка</li>
+                            </ul>
+                        </a>
+                  </li>
+                  <li class="vacancies item">
                         <a class="vacancies-link"
-                            href="https://budu.jobs/vacancy/56b7b620-e90d-4dbe-ba34-eac57fbb2fe0">Painty</a>
-                            <p>Арт директор</p>
+                            href="https://budu.jobs/vacancy/56b7b620-e90d-4dbe-ba34-eac57fbb2fe0">
+                            <h5>Painty</h5>
+                            <p>Perfomance Meneger</p>
                             <p>Сейчас мы активно ищем в команду талантливого, креативного и увлеченного арт-директора, чтобы вместе создавать проекты выходящие за рамки стандартных</p>
-                            <p> ₽ на собеседовании</p>
-                            <p>Санкт-Петербург</p>
+                            <ul class="company__terms">
+                               <li class="terms"> ₽ на собеседовании</li>
+                               <li class="terms">Санкт-Петербург</li>
+                            </ul>
+                        </a>
                     </li>
                 </ul>
+            </div>
         </section>
         <section class="I__know">
             <h2>
@@ -192,7 +216,7 @@
             <p>Нажимая на кнопку «Подписаться» вы соглашаетесь на обработку персональных данных.</p>
         </section>
         </main>
-        <footer>
+   <footer>
             <div class="footer-top">
                     <div class="socseti">
                         <a href="https://budu.jobs/">Буду</a>
@@ -261,7 +285,7 @@
         <p>© 2021, ООО «Буду». Все права защищены</p>
         <a href="https://yo.budu.jobs/docs/conditions">Пользовательское соглашение</a>
         <a href="https://yo.budu.jobs/docs/privacy">Политика конфенденциальности</a>
-    </footer>
+   </footer>
 </body>
 
 </html>
