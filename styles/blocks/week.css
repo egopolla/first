@@ -1,0 +1,114 @@
+/*week*/
+.week__shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0 15px;
+    margin-top: -15px;
+}
+
+.week__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding:0;
+    margin-top: -5px;
+    align-items: center;
+}
+
+
+h3 {
+    justify-content: flex-start;
+    margin-left: 15px;
+    line-height: 1.1;
+    font-size: 1.75rem;
+    font-family: SuisseIntl-Regular,sans-serif;
+    font-weight: inherit;
+    
+}
+
+.weeks__site{
+    background-color: white;
+    
+    
+}
+
+.week__companies__item {
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: white;
+    width: 295px; ;
+    height: 200px ;
+    padding:24px;
+    
+}
+.week__companies__link {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-family: SuisseIntl-Regular,sans-serif;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-weight: inherit;
+}
+.about__us {
+    font-family: SuisseIntl-Regular,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.5;
+    color: #6a6a6a;
+    text-align: left;
+    margin-top: -10px;
+    text-overflow:initial;
+}
+.week__logo__name{
+    display: flex;
+    align-items: center;
+    padding:0px;
+    margin: 0px;
+    margin-top: -20px;
+}
+.week__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    margin-right: 15px;
+}
+.week__bottom{
+    margin-left: 280px;
+    margin-bottom: -30px;
+}
+
+
+.see__more {
+    background-color: white;
+    border-radius: 6px;
+    list-style-type: none;
+    padding: 0 127.5px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+    
+    
+}
+.see__more__link{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.see__more__about{
+    color:black;
+    font-weight: bold;
+   
+    
+    
+    
+}

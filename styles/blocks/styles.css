@@ -1,0 +1,19 @@
+/* Blocks */
+
+@import '/styles/blocks/header.css';
+@import '/styles/blocks/page.css';
+@import '/styles/blocks/logo.css';
+@import '/styles/blocks/menu.css';
+@import '/styles/blocks/basic.css';
+@import '/styles/blocks/week.css';
+@import '/styles/blocks/nofound.css';
+@import '/styles/blocks/vacancies.css';
+@import '/styles/blocks/know.css';
+@import '/styles/blocks/footer.css';
+
+
+@font-face {
+    font-family: "SuisseIntl-Regular";
+    src: url(//fonts/SuisseIntl-Regular.ttf) format("truetype");
+}
+

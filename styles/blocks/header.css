@@ -1,0 +1,17 @@
+
+/*Header*/
+
+.header {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    z-index: 5;
+
+    backdrop-filter: blur(3px);
+    border:none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+

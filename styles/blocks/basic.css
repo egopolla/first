@@ -1,0 +1,94 @@
+.basic_of_site {
+    margin:0px;
+    padding: 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.basic__list {
+    padding:0 20px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.basic__item {
+    min-width: 240px;
+    min-height: 402px;
+}
+
+   
+
+.basic-nav__link {
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.basic__mini {
+    min-width: 200px;
+    min-height: 134px;
+    background-color: white;
+    position: relative;
+    top:230px;
+    border-radius: 1.5em;
+    box-shadow: 0 3px 20px gray;
+    margin:15px;
+    z-index: 4;
+    
+}
+h2{
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 1.75rem;
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+    margin-bottom: -25px;
+    font-family: SuisseIntl-Regular,sans-serif;
+}   
+
+p{
+    white-space: pre-line;
+    text-align: center;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.4;
+    color:black;
+    font-family: SuisseIntl-Regular,sans-serif;
+}
+.vacancies {
+    background-color:rgb(23, 170, 255);
+    background-image: url('/images/picture.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem;
+    
+    
+}
+.company {
+    background-color:rgb(147, 234, 188);
+    background-image: url('/images/companies.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem;
+    
+
+}
+
+.eich {
+    background-color: rgb(224, 196, 255);
+    background-image: url(/images/eich.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem;
+    
+
+}
+

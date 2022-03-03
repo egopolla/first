@@ -1,0 +1,97 @@
+/*Know*/
+.know {
+    color: blanchedalmond;
+    border-radius: 1.5rem;
+    width: 295px;
+    height: 459px;
+    background-color: white;
+    padding: 24px;
+    margin:0 auto;
+    border-radius: 1.25rem;
+    background: white;
+    
+}
+
+.know__name {
+   color: black;
+   font-weight: 500;
+    line-height: 31px;
+    font-family: SuisseIntl-Regular,sans-serif;
+    font-size: 28px;
+    text-align: left;
+    margin-top: -5px;
+}
+
+.know__about {
+    color: gray;
+    -webkit-line-clamp:2;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+    font-size: 16px;
+    text-align: left;
+}
+.row1{
+    position:relative;
+    
+    
+}
+
+.email222 {
+    width: 295px;
+    height:48px;
+    background-color: rgb(251, 251, 253);
+    border-color: rgb(90, 87, 87);
+    border-radius: 0.375rem;
+    border-width: 1px;
+}
+.email222:focus {
+    border: 1px rgb(255, 0, 149) solid;
+    box-shadow: 0 0 0 4px rgba(149,197,243,0.9);
+}
+.label222{
+   color:lightgray;
+   transition: all .1s ease-in-out;
+}
+
+ [type=email] {
+    outline: 0;
+    border: 1px solid lightgray;
+}
+
+ [type=email]::placeholder{
+     color: transparent;
+}
+[type=email]:not(:placeholder-shown) + .label222 {
+    font-size: 9px;
+    margin:-4px 0 0 1px;
+}
+
+
+.submit222 {
+    width: 295px;
+    height:48px;
+    background-color:#f3f3f3;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    margin-top: 25px;
+    font-family: SuisseIntl-Regular,sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.know__end {
+    color: gray;
+    text-align: left;
+
+}
+
+.text, .email, label {
+    position: absolute;
+    left: 0;
+    top:0;
+    padding:10px 2px 4px 10px;
+}
+

@@ -1,0 +1,71 @@
+/*Footer*/
+.footer__top {
+   background: black;
+}
+
+.socseti {
+    display:flex;
+    justify-content: center;
+}
+
+.footer__seti{
+    display:flex;
+}
+
+
+.footer__link {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    line-height: 24px;  
+    font-weight: 400;
+    font-family: SuisseIntl-Regular,sans-serif;
+    
+    
+}
+
+.link__{
+    
+    border-width: 2px;
+    height: 34px;
+    width:34px;
+    background-color:rgb(14, 13, 13);
+    margin-right: 15px;
+    border-color: white;
+    border-radius: 50%;
+    border-width: 1px;
+    text-align: right;
+    border-style: solid;
+}
+.footer__middle{
+    padding-left: 10px;
+}
+h5 {
+    color:rgb(168, 151, 151);
+    line-height: 1.5;
+    padding-left: 10px;
+    font-family: SuisseIntl-Regular,sans-serif;
+    font-size:18px;
+    letter-spacing: normal;
+}
+.footer__list{
+    display:flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.footer__bottom{
+    padding-left: 10px;
+}
+
+.header__img path {
+    fill:white;
+}
+.header__img {
+    padding-top:20px;
+}
+
+.footer__li {
+    padding-bottom: 10px;
+}
+
